@@ -1,0 +1,23 @@
+# SSH private keys
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.pem
+*.key
+*.ppk
+
+# Secrets and environment files
+.env
+.env.*
+*.secret
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
